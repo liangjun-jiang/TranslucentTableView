@@ -35,7 +35,8 @@
     [contentViewAppearance setBackgroundColor:[UIColor clearColor]];
     
     [[UITableView appearance] setBackgroundColor:[UIColor clearColor]];
-    [[UITableView appearance] setBackgroundView:[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"tennis-drills"] applyLightEffect]]];
+    [[UITableView appearance] setBackgroundView:[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"golf.jpeg"] applyLightEffect]]];
+//    [[UITableView appearance] setBackgroundView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"golf.jpeg"]]];
     
     [[UINavigationBar appearance] setBackgroundColor:[UIColor clearColor]];
     [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
