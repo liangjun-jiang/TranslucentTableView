@@ -7,7 +7,7 @@
 //
 
 #import "TTAppDelegate.h"
-
+#import "UIImage+ImageEffects.h"
 @implementation TTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -35,7 +35,7 @@
     [contentViewAppearance setBackgroundColor:[UIColor clearColor]];
     
     [[UITableView appearance] setBackgroundColor:[UIColor clearColor]];
-    [[UITableView appearance] setBackgroundView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"tennis-drills"]]];
+    [[UITableView appearance] setBackgroundView:[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"tennis-drills"] applyLightEffect]]];
     
     [[UINavigationBar appearance] setBackgroundColor:[UIColor clearColor]];
     [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
