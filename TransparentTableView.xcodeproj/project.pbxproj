@@ -23,6 +23,7 @@
 		7D5650E2190F5172009F5979 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5650BE190F5172009F5979 /* UIKit.framework */; };
 		7D5650EA190F5172009F5979 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D5650E8190F5172009F5979 /* InfoPlist.strings */; };
 		7D5650EC190F5172009F5979 /* TransparentTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5650EB190F5172009F5979 /* TransparentTableViewTests.m */; };
+		7D5650F6190F5636009F5979 /* tennis-drills.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5650F5190F5636009F5979 /* tennis-drills.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		7D5650E7190F5172009F5979 /* TransparentTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransparentTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		7D5650E9190F5172009F5979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D5650EB190F5172009F5979 /* TransparentTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentTableViewTests.m; sourceTree = "<group>"; };
+		7D5650F5190F5636009F5979 /* tennis-drills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tennis-drills.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		7D5650C1190F5172009F5979 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D5650F5190F5636009F5979 /* tennis-drills.png */,
 				7D5650C2190F5172009F5979 /* TransparentTableView-Info.plist */,
 				7D5650C3190F5172009F5979 /* InfoPlist.strings */,
 				7D5650C6190F5172009F5979 /* main.m */,
@@ -239,6 +242,7 @@
 			files = (
 				7D5650D1190F5172009F5979 /* Main_iPad.storyboard in Resources */,
 				7D5650D9190F5172009F5979 /* Images.xcassets in Resources */,
+				7D5650F6190F5636009F5979 /* tennis-drills.png in Resources */,
 				7D5650CE190F5172009F5979 /* Main_iPhone.storyboard in Resources */,
 				7D5650C5190F5172009F5979 /* InfoPlist.strings in Resources */,
 			);

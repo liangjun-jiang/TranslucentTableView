@@ -71,6 +71,7 @@
 
     NSDate *object = _objects[indexPath.row];
     cell.textLabel.text = [object description];
+    cell.textLabel.textColor = [UIColor whiteColor];
     return cell;
 }
 
