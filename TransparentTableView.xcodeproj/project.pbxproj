@@ -26,7 +26,6 @@
 		7D5650F6190F5636009F5979 /* tennis-drills.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5650F5190F5636009F5979 /* tennis-drills.png */; };
 		7D5650F9190F5D40009F5979 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5650F8190F5D40009F5979 /* UIImage+ImageEffects.m */; };
 		7D5650FB190F61BB009F5979 /* golf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D5650FA190F61BB009F5979 /* golf.jpeg */; };
-		7D5650FD190F62D4009F5979 /* Baby.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5650FC190F62D4009F5979 /* Baby.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +65,6 @@
 		7D5650F7190F5D40009F5979 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		7D5650F8190F5D40009F5979 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		7D5650FA190F61BB009F5979 /* golf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = golf.jpeg; sourceTree = "<group>"; };
-		7D5650FC190F62D4009F5979 /* Baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Baby.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +143,6 @@
 		7D5650C1190F5172009F5979 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D5650FC190F62D4009F5979 /* Baby.png */,
 				7D5650FA190F61BB009F5979 /* golf.jpeg */,
 				7D5650F5190F5636009F5979 /* tennis-drills.png */,
 				7D5650C2190F5172009F5979 /* TransparentTableView-Info.plist */,
@@ -253,7 +250,6 @@
 			files = (
 				7D5650D1190F5172009F5979 /* Main_iPad.storyboard in Resources */,
 				7D5650D9190F5172009F5979 /* Images.xcassets in Resources */,
-				7D5650FD190F62D4009F5979 /* Baby.png in Resources */,
 				7D5650F6190F5636009F5979 /* tennis-drills.png in Resources */,
 				7D5650FB190F61BB009F5979 /* golf.jpeg in Resources */,
 				7D5650CE190F5172009F5979 /* Main_iPhone.storyboard in Resources */,
@@ -495,6 +491,7 @@
 				7D5650F1190F5172009F5979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D5650F2190F5172009F5979 /* Build configuration list for PBXNativeTarget "TransparentTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +500,7 @@
 				7D5650F4190F5172009F5979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

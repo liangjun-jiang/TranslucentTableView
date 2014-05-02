@@ -37,7 +37,7 @@
 
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
-        self.view.backgroundColor = [UIColor colorWithPatternImage:[[UIImage imageNamed:@"Baby.png"] applyLightEffect]];
+        self.view.backgroundColor = [UIColor colorWithPatternImage:[[UIImage imageNamed:@"golf.jpeg"] applyLightEffect]];
     }
 }
 
