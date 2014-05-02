@@ -35,8 +35,8 @@
     [contentViewAppearance setBackgroundColor:[UIColor clearColor]];
     
     [[UITableView appearance] setBackgroundColor:[UIColor clearColor]];
-    [[UITableView appearance] setBackgroundView:[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"Baby.png"] applyLightEffect]]];
-//    [[UITableView appearance] setBackgroundView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"golf.jpeg"]]];
+//    [[UITableView appearance] setBackgroundView:[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"Baby.png"] applyLightEffect]]];
+    [[UITableView appearance] setBackgroundView:[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"golf.jpeg"] applyLightEffect]]];
     
     [[UINavigationBar appearance] setBackgroundColor:[UIColor clearColor]];
     [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];

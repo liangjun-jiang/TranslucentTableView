@@ -7,7 +7,7 @@
 //
 
 #import "TTDetailViewController.h"
-
+#import "UIImage+ImageEffects.h"
 @interface TTDetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 - (void)configureView;
@@ -37,6 +37,7 @@
 
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
+        self.view.backgroundColor = [UIColor colorWithPatternImage:[[UIImage imageNamed:@"Baby.png"] applyLightEffect]];
     }
 }
 
